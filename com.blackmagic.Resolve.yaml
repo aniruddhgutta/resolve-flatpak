@@ -77,7 +77,7 @@ modules:
     build-commands:
       - install -Dm644 logo.png /app/share/icons/hicolor/scalable/apps/com.blackmagic.Resolve.png
       - |
-        ./run_complete_installation.sh
+        ./run_complete_installation.sh --beta
     sources:
       - type: file
         path: python/build_metainfo.py
